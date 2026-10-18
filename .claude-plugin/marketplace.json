@@ -1,0 +1,15 @@
+{
+  "name": "nextagent",
+  "description": "Skills from NextAgent (nextagent.ca)",
+  "owner": {
+    "name": "NextAgent",
+    "url": "https://nextagent.ca"
+  },
+  "plugins": [
+    {
+      "name": "zh-transcreation",
+      "source": "./",
+      "description": "Turn English into Chinese that reads like it was written in Chinese: transcreation method, anti-translationese checklist, Chinese SEO/GEO, prompts."
+    }
+  ]
+}
