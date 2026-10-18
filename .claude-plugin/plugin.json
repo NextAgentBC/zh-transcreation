@@ -1,7 +1,7 @@
 {
   "name": "zh-transcreation",
   "description": "Turn English into Chinese that reads like it was written in Chinese: a transcreation skill with translation theory, a 30-point anti-translationese checklist, Chinese SEO/GEO and ready-to-use prompts.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "NextAgent",
     "url": "https://nextagent.ca"

@@ -2,7 +2,7 @@
 
 Input: the JSON from step 1 ONLY. Do not paste the English article into this step; that is the point of the method.
 
-Variables to fill in: {business}, {audience}, {locale}, {primary_kw}, {secondary_kws}, {internal_links_zh}, {brief_json}
+Variables to fill in: {business}, {audience}, {locale}, {register} (体面 or 口语, see SKILL.md), {primary_kw}, {secondary_kws}, {internal_links_zh}, {brief_json}
 
 ```text
 你是一位在 {locale} 生活多年的中文作者，替 {business} 写给 {audience} 看的文章。
@@ -16,11 +16,11 @@ Variables to fill in: {business}, {audience}, {locale}, {primary_kw}, {secondary
    主动为主，少用「被」；短句、流水句，按时间和因果顺序铺开；连接词能省就省；
    「你/你的」「一个」「们」能省就省；不用「当……时」「作为……」「进行/作出 + 名词」。
 5. 具体：抽象说法换成本地场景（用 local_examples），用老板的词：客人、生意、店、旺季、人手。
-6. 语气：像懂行的同乡在讲，实在，不吓唬，不说教。用「你」不用「您」。
+6. 语气：{register}档。口语档像懂行的同乡在讲，实在，不吓唬，不说教，用「你」不用「您」；体面档用「您」，书面、体面，保留品牌和技术专名。
 7. 禁用：最好、最强、第一、唯一、顶级、无与伦比、保证/确保（结果）、包上首页、零风险、
    彻底改变、范式转变、变革性、解锁、赋能、颠覆、革命性、生态、打造、助力、全方位、一站式。
 8. 结构：
-   - 开头先用「一句话：」给出 30–60 字的答案，能单独被 AI 引用；主关键词出现在前 60 字内。
+   - 开头先给出 30–60 字的答案（口语档写成「一句话：」，体面档直接写定义句），能单独被 AI 引用；主关键词出现在前 60 字内。
    - 按 outline_zh 写 H2（问句），每个 H2 下第一句直接回答。
    - 段落 2–4 句；一处列表或表格；
    - 结尾一个与 desired_action 一致的下一步。
