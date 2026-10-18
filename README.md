@@ -15,6 +15,8 @@ A transcreation skill for AI agents (Claude Code, Cursor, Codex, or any LLM).
 
 Every word of the literal version is "correct", and no Chinese owner would say it. The second keeps the intent (be found locally) and drops the English sentence shape, the abstract nouns and the sales voice. More pairs, with the reasoning, are in [examples/](examples/).
 
+Launch write-up with before/after cards from our own site: [Why machine-translated Chinese reads wrong](https://nextagent.ca/en/blog/zh-transcreation-english-to-chinese-method).
+
 ## Why
 
 Models translate English into Chinese sentence by sentence, so the output keeps English syntax: passives, long modifiers, pronouns everywhere, abstract nouns. Telling a model to "sound natural" barely helps. What helps:
